@@ -1,0 +1,28 @@
+{
+  "name": "tmpl-log",
+  "description": "Markup and templates in your log.",
+  "author": "Alexandre Kirszenberg <a.kirszenberg@gmail.com>",
+  "version": "0.0.1",
+  "keywords": [
+    "log"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:morhaus/tmpl-log.git"
+  },
+
+  "main": "./lib/logger.js",
+
+  "scripts": {
+    "prepublish": "grunt"
+  },
+
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-clean": "*"
+  }
+}
