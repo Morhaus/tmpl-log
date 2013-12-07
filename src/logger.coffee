@@ -131,7 +131,7 @@ module.exports = class Logger
     return @
 
   registerTag: (name, tags) ->
-    @_tags[name] = [].concat (@_tags[style] for tag in tags)...
+    @_tags[name] = [].concat (@_tags[tag] for tag in tags)...
     return @
 
 module.exports = Logger
