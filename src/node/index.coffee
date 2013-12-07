@@ -1,5 +1,5 @@
 { EventEmitter } = require 'events'
-CLOSE_CODES = require '../const'
+{ CLOSE_CODES } = require '../const'
 
 module.exports = class Node extends EventEmitter
   constructor: ({ @type, @open, @close }) ->
